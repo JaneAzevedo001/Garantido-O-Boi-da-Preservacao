@@ -1,0 +1,115 @@
+body {
+    font-family: "Patrick Hand SC", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #A4AC86;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #660000;
+    color: white;
+    padding: 5%;
+    text-align: center;
+    font-size: 25px;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+.lyrics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lyrics-text {
+    text-align: center;
+    font-size: 20px;
+    white-space: pre-wrap; /* Garante que as quebras de linha sejam respeitadas */
+}
+
+.song {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    max-width: 600px;
+}
+
+.song-title {
+    cursor: pointer;
+    color: #006400;
+}
+
+.search {
+    color: #582F0E;
+    font-size: 20px;
+    text-align: center;
+}
+
+.search form {
+    display: block;
+    margin: 0 auto;
+}
+
+.search input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.search button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #656D4A;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background-color: #006400;
+}
+
+.highlight {
+    background-color: #A4AC86;
+}
+
+
+footer {
+    background-color: #660000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.social-icons a:hover {
+    opacity: 0.7;
+}

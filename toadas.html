@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toadas</title>
+    <link rel="stylesheet" href="styleToadas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>As toadas a seguir abordam o tema da preservação ambiental</h1>
+        <h1>e a exaltação da natureza</h1>
+        <form class="search">
+            <input type="text" id="searchInput" placeholder="Pesquisar Toada">
+            <button type="button" id="searchButton">Pesquisar</button>
+        </form>
+    </header>
+    <main>
+        <section class="song">
+            <h2 class="song-title" onclick="toggleLyrics('song1')">A Grande Maloca</h2>
+            <div id="song1" class="lyrics" style="display: none;">
+                <h3>Boi Bumbá Garantido, 2006 · Demétrios Haidos · Geandro Pantoja</h3>       
+                <pre class="lyrics-text">                  
+A esperança rege a canção da Amazônia
+Os povos da floresta e os pássaros entoam
+Em uma sinfonia de amor
+Sublimando a vida e o Grande Criador
+
+Oh ohh ohh oh ohhhhh
+
+Mãe natureza ensina os povos a viver
+A conviver em harmonia e sonhar
+Mas não são todos que almejam aprender
+E mesmo contra a correnteza vão remar
+
+Se a humanidade não cuida da grande maloca
+A natureza dedilha tristes acordes
+Clamores a ecoar pro o mundo não se acabar
+
+Na fúria do mar e dos ventos
+No gemido da Terra e da selva
+E na seca dos rios da Amzônia a vida suplicará
+
+Acauã anuncia maus presságios
+A pátria das águas será a pátria dos sertões
+Ianbú prenuncia noite longa
+É preciso sonhar e pensar nas futuras gerações
+Kunjubim canta o novo alvorecer
+Paz e solidadriedade precisamos semear
+O Uirapuru dissemina o amor
+E a canção do amor vamos entoar
+
+Terra: A grande maloca que devemos cuidar enquanto houver amanhã
+Terra: A grande maloca nossa mãe, nosso lar
+
+Se a humanidade não cuida da grande maloca
+A natureza dedilha tristes acordes
+Clamores a ecoar pro o mundo não se acabar
+
+Na fúria do mar e dos ventos
+No gemido das terras e da selva
+E na seca dos rios da Amazônia a vida suplicará
+
+Terra: A grande maloca que devemos cuidar enquanto houver amanhã
+Terra: A grande maloca nossa mãe, nosso lar
+                </pre>  
+                <p><a href="https://www.letras.mus.br/garantido/535706/" target="_blank">Letras</a></p>               
+                <iframe width="350" height="200" src="https://www.youtube.com/embed/goQO0HvHKU8?si=UEAuSVi88HDMVEko" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section class="song">
+            <h2 class="song-title" onclick="toggleLyrics('song2')">Amazônia, Santuário Esmeralda</h2>
+            <div id="song2" class="lyrics" style="display: none;">
+                <h3>Boi Bumbá Garantido, 2003 · Demétrios Haidos · Geandro Pantoja</h3>
+                <pre class="lyrics-text">
+Amazônia santuário esmeralda
+Pôr-do-sol beija tuas águas
+Pátria verde florescida
+Pelas lágrimas divinas
+A grinalda do luar vem te abençoar
+
+Templos de rios, florestas
+Lagos e cachoeiras
+Encontro das águas das cores da natureza
+Anavilhanas, jaú, janauarí
+Macuricanã, mamirauá
+
+Teus santuários ecológicos
+Teus sublimes mananciais
+Murmuram uma triste oração
+A nossa fauna corre o risco extinção
+Onça pintada, cutia, preguiça
+Tamanduá bandeira, ariranha
+Peixe-boi, tartaruga, sauim de coleira
+
+Na revoada dos pássaros
+Na dança da liberdade
+Não tire as penas da vida
+Preserve a biodiversidade
+No ermo da Amazônia
+Bicho folharal cantará
+Preservar a natureza
+É preservar o próprio homem
+Mãe, mãe natureza
+                </pre>
+                <p><a href="https://www.letras.mus.br/garantido/963290/" target="_blank">Letras</a></p>
+                <iframe id="video2" width="350" height="200" src="https://www.youtube.com/embed/kJrDbsO13RE?si=ZtemxCwC9JWbkfk2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+         <section class="song">
+            <h2 class="song-title" onclick="toggleLyrics('song3')">Aquarela da Amazônia</h2>
+            <div id="song3" class="lyrics" style="display: none;">
+                <h3>Boi Bumbá Garantido, 2005 · Demétrios Haidos · Geandro Pantoja · Náferson Cruz</h3>
+                <pre class="lyrics-text">
+Abra os olhos e veja a festa da natureza
+Que os deuses pintaram pra nós
+Amazônia um legado em aquarela 
+Sublime canção exaltar
+Água terra fauna flora e cultura
+Sublime canção a exaltar
+A dança divina da vida
+Obra-prima emoldurada de flores
+
+Festa de luzes e cores
+Artes feita com amor e singelas poesias
+A brisa conduz o vôo dos pássaros
+Compondo melodias naturais
+Exóticos e raros orquidários
+Abrigam os sonhos de paz
+
+Menina dos olhos do mundo
+Onde a vida clama preservação
+E o artista traduz a magia
+Em aquarela pinta sua paixão
+O nosso amor é a Amazônia
+Dos sonhos de Chico Mendes
+
+Em defesa do ambiente
+O nosso amor é a Amazônia
+Exaltada nas toadas
+Na festa do boi Garantido
+                </pre>
+                <p>
+                    <a href="https://www.letras.mus.br/david-assayag/990616/" target="_blank">Letras</a>
+                </p>
+                <iframe id="video3" width="350" height="200" src="https://www.youtube.com/embed/oLPZgmK-7NI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section class="song">
+            <h2 class="song-title" onclick="toggleLyrics('song4')">Fantástica Amazônia</h2>
+            <div id="song4" class="lyrics" style="display: none;">
+                <h3>Boi Bumbá Garantido, 2015 · Ronaldo Barbosa Jr · Rafael Marupiara</h3>
+                <pre class="lyrics-text">                    
+Teu verde encanto, mistério milenar
+O segredo derradeiro irá revelar
+Entre as curvas de rios, vitrais do teu olhar
+Um novo universo irá se mostrar
+Muito além desse verde encontre o lugar
+Sua razão para existir, sua razão para cuidar
+Muito além desse verde a mente vai evoluir
+Descubra a amazônia que vive em ti
+
+Ventos rufam para o norte
+Trazem sorte, sonho e morte
+Acinzentam igapós
+Globalizam caiapós
+Força o progresso da nação
+É o que inspira a comunhão
+Sacia a sede do sertão
+A sobrevivência
+
+Fantástica Amazônia
+Dos povos, das penas
+Do sangue indígena que singra em nós
+Fantástica Amazônia
+Dos contos, das crenças
+Da arte cabocla que brota em nós
+De vermelho e branco
+A resistência vem de um canto da América
+O Garantido em teu coração
+O orgulho, a força e a glória dessa terra
+                </pre>
+                <p><a href="https://www.letras.mus.br/garantido/fantastica-amazonia/" target="_blank">Letras</a></p>
+                <iframe id="video4" width="350" height="200" src="https://www.youtube.com/embed/Qmih2g7Oqas?si=vUExyrklA6z65Wty" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section class="song">
+            <h2 class="song-title" onclick="toggleLyrics('song5')">Filhos do Amanhã - A Sabedoria não Envelhece</h2>
+            <div id="song5" class="lyrics" style="display: none;">
+                <h3>Boi Bumbá Garantido, 2001 · Paulinho Dú Sagrado</h3>
+                <pre class="lyrics-text">                        
+Será? Como será?
+Viver neste mundo sem água
+Sem o ar sem poder respirar
+Verá que a impureza
+Lançada nos rios
+Vai regar a tristeza e a dor
+
+O que será? O que será?
+Da terra mudar 
+O conceito do homem
+Modera o desejo da fera
+Olha os filhos do amanhã
+
+A Natureza é o encanto da vida
+Traz poesia pro meu povo cantar
+Como será? Onde será? Quando será?
+
+Liberta meu povo
+Um mundo novo
+Esperança de mudar
+Porque o amor
+É um sentimento belo
+Na natureza faz amar os animais
+
+Meu boi Garantido
+Será sempre o amor mais bonito
+Garantido meu boi
+Meu brinquedo de amar
+
+Meu boi Garantido, o amor mais bonito
+Meu boi Garantido será sempre
+O amor mais bonito
+Garantido meu boi
+Meu brinquedo de amar
+                </pre>
+                <p><a href="https://www.letras.mus.br/garantido/1502972/" target="_blank">Letras</a></p>
+                <iframe id="video5" width="350" height="200" src="https://www.youtube.com/embed/2Q8uYRguaMk?si=RCCGCJwNlHIJkx9o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section class="song">
+            <h2 class="song-title" onclick="toggleLyrics('song6')">Índio Do Brasil</h2>
+            <div id="song6" class="lyrics" style="display: none;">
+                <h3>Boi Bumbá Garantido, 2004 · Geandro Pantoja · Demétrios Haidos</h3>
+                <pre class="lyrics-text">                        
+Sou igara nessas águas
+Sou a seiva dessas matas
+E o ruflar das asas de um beija-flor
+
+Eu vivia em plena harmonia com a natureza
+Mas num triste dia o kariwa invasor
+No meu solo sagrado pisou
+Desbotando o verde das florestas
+Garimpando o leito desses rios
+
+Já são cinco séculos de exploração
+Mas a resistência ainda pulsa no meu coração
+Na cerâmica Marajoara, no remo Sateré
+Na plumária ka'apor, na pintura kadiwéu
+No muiraquitã da icamiaba
+
+Na zarabatana Makú, no arco Mundurukú
+No manto Tupinambá, na flecha kamayurá
+Na oração Dessana
+
+Canta índio do Brasil
+Canta índio do Brasil
+Canta índio do Brasil
+Canta índio do Brasil
+
+Anauê nhandeva, anauê hei, hei, hei
+Anaue nhandeva anaue hei, hei, hei
+
+Dos filhos deste solo és mãe gentil pátria amada Brasil
+                </pre>
+                <p><a href="https://www.letras.mus.br/garantido/239987/" target="_blank">Letras</a></p>
+                <iframe id="video6" width="350" height="200" src="https://www.youtube.com/embed/7RbogL8HKDg?si=V8Kj8KtK_brasjS3"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section class="song">
+            <h2 class="song-title" onclick="toggleLyrics('song7')">Lamento de Raça</h2>
+            <div id="song7" class="lyrics" style="display: none;">
+                <h3>Boi Bumbá Garantido, 1996 · Emerson Maia</h3>
+                <pre class="lyrics-text">
+O índio chorou
+O branco chorou
+Todo mundo está chorando
+A amazônia está queimando
+Ai, ai, que dor
+Ai, ai, que horror
+
+O meu pé de sapopema
+Minha infância virou lenha
+Ai, ai, que dor
+Ai, ai, que horror
+
+Lá se vai a saracura correndo dessa quentura
+E não vai mais voltar
+Lá se vai onça-pintada fugindo dessa queimada
+E não vai mais voltar
+Lá se vai a macacada junto com a passarada
+Para nunca mais voltar
+Para nunca mais, nunca mais voltar
+
+Virou deserto o meu torrão
+Meu rio secou, pra onde vou?
+Eu vou convidar a minha tribo pra brincar no Garantido
+Para o mundo declarar
+Nada de queimada ou derrubada
+A vida agora é respeitada, todo mundo vai cantar
+
+Vamos brincar de boi, tá Garantido
+Matar a mata não é permitido
+Vamos brincar de boi, tá Garantido
+Matar a mata não é permitido
+
+Vamos brincar de boi, tá Garantido
+Matar a mata não é permitido
+Vamos brincar de boi, tá Garantido
+Matar a mata não é permitido
+
+Vamos brincar de boi, tá Garantido
+Matar a mata não é permitido
+Vamos brincar de boi, tá Garantido
+Matar a mata não é permitido</pre>
+                <p><a href="https://www.letras.mus.br/garantido/669753/" target="_blank">Letras</a></p>
+                <iframe id="video7" width="350" height="200" src="https://www.youtube.com/embed/NXBaDJmSRtQ?si=9VxS93DxBfr75ZJu" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section class="song">
+            <h2 class="song-title" onclick="toggleLyrics('song8')">Nações Extintas</h2>
+            <div id="song8" class="lyrics" style="display: none;">
+                <h3>Boi Bumbá Garantido, 2001 ·  Sidney Resende · João Melo</h3>
+                <pre class="lyrics-text">                        
+Sem terra, sem teto, sem grão
+Sem alma, sem rota a nação
+Nos primórdios do mundo de Deus
+Das tabas, florestas sem fim
+Destino de índio feliz
+Mas um dia chegou caos e cruz
+O fogo Kariwa, arcabuz mañuçawa
+Minha terra mãe
+Pariana, Juruena, Cayarí
+Não te tenho mais
+Yabarana, Manaós, Aguarás
+Tudo o quanto amei
+Pirayuri, Tarumã, Condorí
+Branco já tomou
+Guanapuri, Mariáia, Guanamã
+Minha terra mãe
+Yamaruá, Uepurí, Gepuá
+Não te tenho mais
+Araazes, Baanary, Quimaú
+Tudo o quanto amei
+Yoriman, Buraí, Apirá
+Branco já tomou
+Cocuena, Managú, Caniarí
+Minha terra mãe
+Aguayra, Guarinuma, Ararawá
+Não te tenho mais
+Caratú, Waupés, Juruparí
+Tudo o quanto amei
+Jacamin, Cayana, Acebarí
+Branco já tomou
+Aragatú, Zapucaia, Barés
+Ô Ô Ô Ô Ô
+                </pre>
+                <p><a href="https://www.letras.mus.br/garantido/819462/" target="_blank">Letras</a></p>
+                <iframe id="video8" width="350" height="200" src="https://www.youtube.com/embed/ajlqDfhBQkE?si=3ZuIouux9afDB7_D" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section class="song">
+            <h2 class="song-title" onclick="toggleLyrics('song9')">Não Mate A Vida</h2>
+            <div id="song9" class="lyrics" style="display: none;">
+                <h3>Boi Bumbá Garantido, 2001 · Tony Medeiros · Inaldo Medeiros</h3>
+                <pre class="lyrics-text">                        
+Um dia o índio civilizará o mundo
+E a terra no sentido mais profundo
+Terá que ser tratada como mãe, então
+
+Um dia 
+Os rios e as florestas profanados
+Queimados poluídos soterrados
+Ainda tentarão sobreviver
+
+É preservando seu moço
+Que o homem vai viver
+É destruindo seu moço
+Que o mundo vai morrer
+
+Um dia
+Dragões de ferro 
+Entraram na floresta
+Progresso é uma ordem adversa
+Matando e destruindo o meu chão
+
+O índio 
+Que sempre conviveu em harmonia
+Foi quem nos Ensinou ecologia 
+Conceito de cultura milenar
+                </pre>
+                <p><a href="https://www.letras.mus.br/garantido/819463/" target="_blank">Letras</a></p>
+                <iframe id="video9" width="350" height="200" src="https://www.youtube.com/embed/CO0cGwJUicQ?si=1rQ2JOh9aq3Jzbuh"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section class="song">
+            <h2 class="song-title" onclick="toggleLyrics('song10')">Orquestra Amazônica e a Ópera da Terra</h2>
+            <div id="song10" class="lyrics" style="display: none;">
+                <h3>Boi Bumbá Garantido, 2009 · Rossy do Carmo</h3>
+                <pre class="lyrics-text">  
+O albor relevante que mostra
+O enlevo da selva
+Desperta o oculto numa sinfonia 
+Que adoça as manhãs
+
+Galhos são regentes movidos pelos ventos
+Na paisagem da vida reluz,
+O sonho mais lindo
+Erudito que seduz no templo do amor
+
+E as águas que tecem as matas
+Contemplam o cenário em plena harmonia
+Com a doce orquestra amazônica 
+
+Ninho de boiúna e todas as espécies
+No banzeiro entoa a canção
+Ao se tocar com os barrancos
+Coração livre pra voar
+
+O show da vida não pode parar
+A orquestra não pode parar 
+A magia irá defender esse chão
+Enquanto a soberania existir 
+E a consciência humana entender
+Que o filho da selva é feliz no seu lar
+
+O show da vida não pode parar 
+A orquestra não pode parar
+A magia irá defender esse chão</pre>
+                <p><a href="https://www.letras.mus.br/garantido/1502977/" target="_blank">Letras</a></p>
+                <iframe id="video10" width="350" height="200" src="https://www.youtube.com/embed/Rtbzx3yb-_4?si=8mrW97_owjINkCIm" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section class="song">
+            <h2 class="song-title" onclick="toggleLyrics('song11')">Seiva</h2>
+            <div id="song11" class="lyrics" style="display: none;">
+                <h3>Boi Bumbá Garantido, 2012 · Demétrios Haidos · Geandro Pantoja</h3>
+                <pre class="lyrics-text">  
+Seiva que singra as veias da árvores
+É sangue verde das matas
+Tem lágrimas de tupã, tem água de rio
+É vida que pulsa no coração do Brasil
+Amazônia!
+
+A energia de luz vem do beijo
+Que as folhas conquistam do Sol
+Raízes bebem lençóis tão profundos
+E abraçam a terra para florir girassol
+
+Arco-íris de borboletas matiza flores selvagens
+Sob a regência da mãe natureza
+A vida orquestra paisagem
+As tribos entoam seus cantos sagrados
+Em harmonia com a sinfonia dos pássaros
+
+Ainda que a cobiça pintar o verde todo em cinza
+A embaúba brotará!
+E a samumeira resistirá!
+Haverá um grande ajurí em defesa da vida
+
+E as mãos que apenas sabem ceifar
+Vão semear, plantar, regar, cultivar e preservar
+
+Ó seiva que está dentro de mim, que está dentro de nós
+Pulsa na floresta e na terra
+Pulsa nessas águas, na vida e no coração
+
+Ó seiva que está dentro de mim, que está dentro nós
+Pulsa no meu boi garantido, pulsa na raiz
+Da nossa tradição!</pre>
+                <p><a href="https://letras.mus.br/garantido/seiva/" target="_blank">Letras</a></p>
+                <iframe id="video11" width="350" height="200" src="https://www.youtube.com/embed/BPIFK-I9Yew?si=vq7QXnjcSo4CK6r_"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/garantido/?locale=pt_BR" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/boigarantido/" class="fa fa-instagram"></a>
+        </div>
+        <p>© 2024 Garantido:O Boi da Preservação. Todos os direitos reservados.</p>   
+    </footer>
+    <script src="toada.js"></script>
+</body>
+</html>
