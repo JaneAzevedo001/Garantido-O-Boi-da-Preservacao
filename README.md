@@ -44,7 +44,3 @@ Contém a lógica para a busca e exibição das toadas no arquivo `index.html`.
 #### toada.js
 Contém a lógica para a busca no arquivo `toadas.html`.
 
-### Principais características
-- **Pesquisa dinâmica**: Os usuários podem pesquisar toadas com base em várias palavras-chave.
-- **Elementos interativos**: Os vídeos são incorporados diretamente na página para uma experiência imersiva.
-- **Design responsivo**: O site se adapta a diferentes tamanhos de tela para uma visualização ideal.
