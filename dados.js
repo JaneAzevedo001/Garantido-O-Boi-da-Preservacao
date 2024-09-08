@@ -5,18 +5,7 @@ const toadas = [
         lyrics: `A esperança rege a canção da Amazônia
                 Os povos da floresta e os pássaros entoam
                 Em uma sinfonia de amor
-                Sublimando a vida e o Grande Criador
-
-                Oh ohh ohh oh ohhhhh
-
-                Mãe natureza ensina os povos a viver
-                A conviver em harmonia e sonhar
-                Mas não são todos que almejam aprender
-                E mesmo contra a correnteza vão remar
-
-                Se a humanidade não cuida da grande maloca
-                A natureza dedilha tristes acordes
-                Clamores a ecoar pro o mundo não se acabar`,
+                Sublimando a vida e o Grande Criador`,
         videoId: 'https://www.youtube.com/embed/goQO0HvHKU8?si=UEAuSVi88HDMVEko',
         lyricsUrl: 'https://www.letras.mus.br/garantido/535706/',
         tags: ['demetrios haidos', 'demetrio raidos', 'Mãe Natureza', 'mae natureza']
